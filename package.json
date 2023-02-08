@@ -1,0 +1,41 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.1",
+    "bootstrap-vue": "^2.22.0",
+    "core-js": "^3.19.3",
+    "font-awesome": "^4.7.0",
+    "nuxt": "^2.15.8",
+    "prismjs": "^1.29.0",
+    "sass": "^1.54.9",
+    "sass-loader": "^10.2.1",
+    "vue": "^2.6.14",
+    "vue-jstree": "^2.1.6",
+    "vue-perfect-scrollbar": "^0.2.1",
+    "vue-prism-editor": "^1.3.0",
+    "vue-rate-it": "^2.1.0",
+    "vue-scrollactive": "^0.9.3",
+    "vue-server-renderer": "^2.6.14",
+    "vue-slide-bar": "^1.2.0",
+    "vue-sweetalert2": "^5.0.5",
+    "vue-template-compiler": "^2.6.14",
+    "vue-toasted": "^1.1.28",
+    "vue-tour": "^2.0.0",
+    "vue-typeahead": "^2.3.2",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^0.7.1"
+  }
+}
