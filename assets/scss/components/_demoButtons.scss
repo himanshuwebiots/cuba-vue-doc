@@ -1,0 +1,18 @@
+.content .badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 8px 6px;
+  margin-top: -4px;
+}
+
+.badge-primary-light {
+  background-color: rgba(115, 102, 255, 0.14);
+  color: #7366ff;
+}
+
+.title-with-link {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}

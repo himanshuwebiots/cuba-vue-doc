@@ -1,0 +1,45 @@
+/*! -----------------------------------------------------------------------------------
+
+    Template Name: Cuba Admin
+    Template URI: http://admin.pixelstrap.com/cuba/theme
+    Description: This is Admin theme
+    Author: Pixelstrap
+    Author URI: https://themeforest.net/user/pixelstrap
+
+-----------------------------------------------------------------------------------
+ */
+// @import "vendors/font-awesome.scss";
+// @import "font-awesome";
+// @import 'bootstrap/dist/css/bootstrap.css';
+// @import "@/node_modules/font-awesome/css/font-awesome.css";
+@import "@/node_modules/@fortawesome/fontawesome-free/css/all.css";
+@import "vendors/feather-icon.scss";
+@import "@/node_modules/animate.css/animate.compat.css";
+@import "bootstrap";
+@import "bootstrap-vue/dist/bootstrap-vue.css";
+@import "theme/variables";
+@import "components/buttons.scss";
+@import "components/alert";
+@import "components/card.scss";
+@import "components/color.scss";
+@import "components/dropdown.scss";
+@import "components/popover.scss";
+@import "components/tab.scss";
+@import "components/table.scss";
+@import "components/tree";
+@import "components/prism.scss";
+@import "components/according";
+@import "components/demoButtons";
+@import "components/scrollable";
+@import "theme/document.scss";
+@import "theme/responsive";
+@import "theme/dark.scss";
+
+span.bold {
+  font-weight: bold;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: unset;
+}
