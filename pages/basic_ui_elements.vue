@@ -3,11 +3,11 @@
 		<div class="col-sm-12">
 			<h4 class="main-title">Basic UI Elements</h4>
 			<h4 class="sub-title title-with-link" id="installingBootstrapVue">
-				Installing Bootstrap-Vue
-				<demoButton supplementPath="https://bootstrap-vue.org/docs" />
+				Installing Bootstrap-5
+				
 			</h4>
 			<p>
-				We have use bootstrap-vue to design most of the components, make sure
+				We have use bootstrap-5 to design most of the components, make sure
 				you install it and integrate with the project.
 			</p>
 			<p>step 1:</p>
@@ -16,10 +16,15 @@
 			</p>
 			<p>step 2:</p>
 			<p>
-				In your plugins/index.js file all the following code:
+				In your main.js file add  the following code:
 				<codeBox :code="prismCodes.integratingBootstrapVue" />
 			</p>
-			<p>And you are all set to use bootstrap-vue in your project.</p>
+			<p>step 3:</p>
+			<p>
+				Add the following code in <strong>theme>src>assets>scss>app.scss</strong>
+				<codeBox :code="prismCodes.integratingBootstrapVue1" />
+			</p>
+			<p>And you are all set to use bootstrap in your project.</p>
 			<div>
 				<h4 class="sub-title title-with-link" id="buttons">
 					Buttons

@@ -14,9 +14,9 @@
 				different layouts, named by the popular cities of the world.
 			</p>
 			<div class="d-flex justify-content-center align-items-center">
-				<nuxt-img
+				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="/assets/images/document/vue/codeSnaps/quickOptions.png"
+					src="../assets/images/document/vue/codeSnaps/newImages/quickOptions.png"
 				/>
 			</div>
 			<p>Layouts changes as the classes in the below given div tag changes.</p>
@@ -40,7 +40,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/layout_dubai.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/dubai.png"
 					alt=""
 				/>
 			</div>
@@ -64,7 +64,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/layout_london.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/london.png"
 					alt=""
 				/>
 			</div>
@@ -86,7 +86,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/layout_seoul.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/seoul.png"
 					alt=""
 				/>
 			</div>
@@ -110,7 +110,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/layout_los_angeles.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/losAngels.png"
 					alt=""
 				/>
 			</div>
@@ -133,7 +133,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/layout_paris.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/paris.png"
 					alt=""
 				/>
 			</div>
@@ -156,7 +156,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/layout_tokyo.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/tokyo.png"
 					alt=""
 				/>
 			</div>
@@ -181,7 +181,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/layout_madrid.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/madrid.png"
 					alt=""
 				/>
 			</div>
@@ -205,7 +205,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/layout_mascow.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/moscow.png"
 					alt=""
 				/>
 			</div>
@@ -227,7 +227,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/layout_newyork.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/newYork.png"
 					alt=""
 				/>
 			</div>
@@ -251,7 +251,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/layout_singapore.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/singapore.png"
 					alt=""
 				/>
 			</div>
@@ -276,7 +276,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/layout_rome.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/rome.png"
 					alt=""
 				/>
 			</div>
@@ -301,7 +301,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/layout_barcelona.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/barcelona.png"
 					alt=""
 				/>
 			</div>
@@ -314,7 +314,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/copySettingsQuickOptions.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/cuba-vue3.png"
 					alt=""
 				/>
 			</div>
@@ -322,7 +322,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/copyLayoutSettings.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/rename.png"
 					alt=""
 				/>
 			</div>

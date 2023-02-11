@@ -16,7 +16,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="@/assets/images/document/vue/codeSnaps/themeCustomizer.png"
+					src="@/assets/images/document/vue/codeSnaps/newImages/customizer.png"
 					alt=""
 				/>
 			</div>
@@ -28,7 +28,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="@/assets/images/document/vue/codeSnaps/layoutType.png"
+					src="@/assets/images/document/vue/codeSnaps/newImages/layoutType.png"
 					alt=""
 				/>
 			</div>
@@ -50,7 +50,7 @@
 					<div class="d-flex justify-content-center align-items-center">
 						<img
 							class="img-fluid mb-3 img-border img-80"
-							src="@/assets/images/document/vue/codeSnaps/layout_dubai.png"
+							src="@/assets/images/document/vue/codeSnaps/newImages/dubai.png"
 							alt=""
 						/>
 					</div>
@@ -65,7 +65,7 @@
 					<div class="d-flex justify-content-center align-items-center">
 						<img
 							class="img-fluid mb-3 img-border img-80"
-							src="@/assets/images/document/vue/codeSnaps/layout_dubai_rtl.png"
+							src="@/assets/images/document/vue/codeSnaps/newImages/rtl.png"
 							alt=""
 						/>
 					</div>
@@ -79,7 +79,7 @@
 					<div class="d-flex justify-content-center align-items-center">
 						<img
 							class="img-fluid mb-3 img-border img-80"
-							src="@/assets/images/document/vue/codeSnaps/layout_dubai_boxed.png"
+							src="@/assets/images/document/vue/codeSnaps/newImages/box.png"
 							alt=""
 						/>
 					</div>
@@ -114,7 +114,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="@/assets/images/document/vue/codeSnaps/configureButton.png"
+					src="@/assets/images/document/vue/codeSnaps/newImages/layoutSetting.png"
 					alt=""
 				/>
 			</div>
@@ -122,7 +122,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="@/assets/images/document/vue/codeSnaps/copyLayoutSettings.png"
+					src="@/assets/images/document/vue/codeSnaps/newImages/coppySetting.png"
 					alt=""
 				/>
 			</div>

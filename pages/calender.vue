@@ -33,6 +33,11 @@
 					<p class="inner-sub-title">Inside Your Script tag add:</p>
 					<codeBox :code="prismCodes.insideScriptCalendar" />
 				</div>
+				<div>
+					<p class="inner-sub-title">Inside Your store js tags add
+					</p>
+					<codeBox :code="prismCodes.jsonSimpleCalendar" />
+				</div>
 			</div>
 		</div>
 	</div>

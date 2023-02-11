@@ -65,12 +65,10 @@
 				path key, you will need to add the path that you define in the router.
 			</p>
 			<p>
-				You can add icons before the link in ui by giving feather icon name in
-				icon key. Here is the link for the feather icon you might want to you.
-				<a href="https://feathericons.com/" target="_blank"
-					>https://feathericons.com/</a
-				>. Copy the name of the icon you want to show and paste it in before
-				icon key.
+				You can add icons before the link in ui by giving svg icon name in
+				icon key and iconf key {icon key will represent stroke icon and iconf will represent fill icon}. 
+				All the icon are present in <strong>theme>src>assets>svg>icon-sprite.svg </strong>
+				In the icon-sprite.svg there are all the svg icon used 
 			</p>
 			<p>
 				If the link contains sub links add type : 'sub', and if there are no sub
@@ -197,7 +195,8 @@ export default {
 {
     "path": "/path_of_new_link",
     "title": "New Link",
-    "icon": "heart",
+	"iconf":"fill-home"
+    "icon": "stroke-home",
     "type": "link",
     "bookmark": true
 },

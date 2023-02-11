@@ -225,6 +225,10 @@
           <div class="mb-4">
             <codeBox :code="prismCodes.installTypeahead" />
             <div>
+              <h5 class="inner-sub-title">Add this to main.js</h5>
+              <codeBox :code="prismCodes.mainScriptSimpleTypeahead" />
+            </div>
+            <div>
               <h5 class="inner-sub-title">Inside Your Template tag add:</h5>
               <codeBox :code="prismCodes.insideTemplateTypeahead" />
             </div>

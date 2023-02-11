@@ -22,6 +22,10 @@
         <div class="mb-4">
           <codeBox :code="prismCodes.installSimpleEditor" />
           <div>
+            <p class="inner-sub-title">In your plugins/main.js file all the following code:</p>
+            <codeBox :code="prismCodes.mainScriptquillEditor" />
+          </div>
+          <div>
             <p class="inner-sub-title">Inside Your Template tag add:</p>
             <codeBox :code="prismCodes.insideTemplateSimpleEditor" />
           </div>

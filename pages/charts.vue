@@ -33,7 +33,7 @@
       </div>
       <div>
         <h4 class="sub-title title-with-link" id="chartJs">
-          Chart Js
+          Apex Charts
           <demoButton
             path="https://vue.pixelstrap.com/cuba/chart/chartjs"
             supplementPath="https://www.npmjs.com/package/vue-chartjs"
@@ -41,7 +41,7 @@
         </h4>
         <img
           class="img-fluid mb-3 img-80"
-          src="../assets/images/document/vue/gifs/chartjs.gif"
+          src="../assets/images/document/vue/gifs/apexCharts.gif"
           alt=""
         />
 
@@ -49,12 +49,20 @@
         <div class="mb-4">
           <codeBox :code="prismCodes.installChartjs" />
           <div>
+            <p class="inner-sub-title">In your plugins/main.js file all the following code:</p>
+            <codeBox :code="prismCodes.mainScriptVueApexCharts" />
+          </div>
+          <div>
             <p class="inner-sub-title">Inside Your Template tag add:</p>
             <codeBox :code="prismCodes.insideTemplateChartjs" />
           </div>
           <div>
             <p class="inner-sub-title">Inside Your Script tag add:</p>
             <codeBox :code="prismCodes.insideScriptChartjs" />
+          </div>
+          <div>
+            <p class="inner-sub-title">Inside Your json tags add</p>
+            <codeBox :code="prismCodes.jsonScriptVueApexCharts" />
           </div>
           <h5 class="inner-sub-title"><b>Uninstalling package</b></h5>
           <codeBox :code="prismCodes.unInstallChartjs" />
@@ -77,6 +85,10 @@
         <div class="mb-4">
           <codeBox :code="prismCodes.installChartist" />
           <div>
+            <div>
+              <p class="inner-sub-title">In your plugins/main.js file all the following code:</p>
+              <codeBox :code="prismCodes.mainScriptvueChartist" />
+            </div>
             <p class="inner-sub-title">Inside Your Template tag add:</p>
             <codeBox :code="prismCodes.insideTemplateChartist" />
           </div>

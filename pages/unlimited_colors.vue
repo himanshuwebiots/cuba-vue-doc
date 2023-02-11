@@ -13,7 +13,7 @@
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
-					src="~assets/images/document/vue/codeSnaps/colorSelector.png"
+					src="~assets/images/document/vue/codeSnaps/newImages/unlimitedColor.png"
 					alt=""
 				/>
 			</div>

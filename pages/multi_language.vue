@@ -40,8 +40,8 @@
 				<li id="addI18nInMain">
 					<p>Add i18n in the <span class="bold"> main.js</span> file:</p>
 					<p>
-						Navigate to main.js file in the src folder and import vue-i18n and
-						integrate it with the project using Vue.user(vue-i18n)
+						Navigate to main.js file in the src folder and import createI18n and
+						integrate it with the project.
 					</p>
 					<div class="py-2 ps-3">
 						<div class="code-box-copy">
@@ -182,8 +182,7 @@ export default {
 			value: `{{$t(Value)}}`,
 			prismCodes: {
 				installVueI18n: `npm install --save vue-i18n`,
-				importVueI18n: `import VueI18n from 'vue-i18n';
-Vue.use(VueI18n);`,
+				importVueI18n: `import { createI18n } from 'vue-i18n'`,
 				eslanguageJSON: `{
   "Dashboard": "Tablero",
   "Default": "Defecto",
@@ -206,18 +205,13 @@ Vue.use(VueI18n);`,
 				packageIntialization: `import { defaultLocale, localeOptions } from './constants/config';
 
 const locale = (localStorage.getItem('currentLanguage') && localeOptions.filter(x => x.id === localStorage.getItem('currentLanguage')).length > 0) ? localStorage.getItem('currentLanguage') : defaultLocale; });`,
-				packageSetup: `const i18n = new VueI18n({
-  locale: locale,
-  fallbackLocale: 'en',
-  messages,
-  silentTranslationWarn: true
-});`,
-				packageIntegration: `new Vue({
-  i18n,
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app');`,
+				packageSetup: ` const i18n = createI18n({
+   locale: locale,
+   fallbackLocale: 'en',
+   messages,
+   silentTranslationWarn: true
+ });`,
+				packageIntegration: `createApp(App).use(i18n).mount('#app');`,
 			},
 		};
 	},

@@ -125,17 +125,29 @@ export const MENUITEMS = [
         path: "/sidebar_options",
         headings: [
           {
-            title: "Default Sidebar",
+            title: "Vertical Sidebar",
             id: "defaultSidebar",
           },
           {
-            title: "Bordered Sidebar",
+            title: "Horizontal Sidebar",
             id: "borderedSidebar",
           },
+       
+        ],
+      },
+      {
+        title: "Sidebar Icon",
+        path: "/sidebar_icon",
+        headings: [
           {
-            title: "Icon Color Sidebar",
-            id: "iconColorSidebar",
+            title: "Stroke Icon",
+            id: "strokeIcon",
           },
+          {
+            title: "Fill Icon",
+            id: "fillIcon",
+          },
+          
         ],
       },
       {
@@ -413,16 +425,12 @@ export const MENUITEMS = [
         title: "Tables",
         path: "/tables",
         headings: [
-          { title: "Bootstrap tables", id: "bootstrapTables" },
-          { title: "Smart tables", id: "smartTables" },
-          {
-            title: "Table Variant",
-            id: "tableVariants",
-            innerHeadings: [
-              { title: "Basic Table", id: "basicTable" },
-              { title: "Colored Table", id: "coloredTable" },
-            ],
-          },
+          { title: "Bootstrap tables", id: "bootstrapTables", innerHeadings: [
+            { title: "Basic Table", id: "basicTable" },
+            { title: "Colored Table", id: "coloredTable" },
+          ], },
+          { title: "Data tables", id: "smartTables" },
+          
         ],
       },
       {
@@ -459,7 +467,6 @@ export const MENUITEMS = [
       { title: "Chat", path: "/chat" },
       { title: "Gallery", path: "/gallery" },
       { title: "To-Do", path: "/todo" },
-      { title: "To-Do with Firebase", path: "/todo_with_firebase" },
       { title: "Email", path: "/email" },
       { title: "Bookmark Search", path: "/bookmark_search" },
       { title: "Calender", path: "/calender" },
@@ -475,46 +482,7 @@ export const MENUITEMS = [
       },
     ],
   },
-  {
-    title: "Integration",
-    children: [
-      {
-        title: "Authenticaton With Firebase",
-        path: "/authentication_with_firebase",
-        headings: [
-          { title: "Use of Firebase", id: "useOfFirebase" },
-          { title: "Prerequisites", id: "prerequisites" },
-          { title: "Step 1: Setup Firebase", id: "step1" },
-          { title: "Step 2: Integrate In Vue", id: "step2" },
-          { title: "How To Remove Firebase", id: "removeFirebase" },
-        ],
-      },
-      {
-        title: "Authenticaton With JWT",
-        path: "/authentication_with_jwt",
-        headings: [
-          {
-            title: "Use Of Jwt",
-            id: "useOfJwt",
-            innerHeadings: [
-              { title: "Authorization", id: "authorization" },
-              { title: "Information Exchange", id: "informationExchange" },
-            ],
-          },
-        ],
-      },
-      {
-        title: "Authenticaton With auth0",
-        path: "/authentication_with_autho",
-        headings: [
-          { title: "Uses of Auth0", id: "useOfAuth0" },
-          { title: "Prerequisites", id: "prerequisites" },
-          { title: "Setting Up Auth 0", id: "step1" },
-          { title: "Integrating Auth 0 in vue", id: "step2" },
-        ],
-      },
-    ],
-  },
+
   {
     title: "Credits",
     children: [{ title: "Credits", path: "/credits" }],

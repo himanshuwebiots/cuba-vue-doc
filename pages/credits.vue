@@ -12,7 +12,7 @@
 					</li>
 
 					<li>
-						<a href="https://www.npmjs.com/package/vuex" target="_blank">vuex
+						<a href="https://vuejs.org/guide" target="_blank">vuex
 							<i class="fa-solid fa-link"></i></a>
 					</li>
 
@@ -25,7 +25,7 @@
 							<i class="fa-solid fa-link"></i></a>
 					</li>
 					<li>
-						<a href="https://www.npmjs.com/package/bootstrap-vue" target="_blank">Bootstrap Vue
+						<a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/" target="_blank">Bootstrap
 							<i class="fa-solid fa-link"></i></a>
 					</li>
 				</ul>
@@ -43,12 +43,12 @@
 				<ul class="credits-list">
 
 					<li>
-						<a href="https://www.npmjs.com/package/vue2-google-maps" target="_blank">vue2-google-maps <i
+						<a href="https://www.npmjs.com/package/vue3-google-map" target="_blank">Google-maps <i
 								class="fa-solid fa-link"></i></a>
 					</li>
 
 					<li>
-						<a href="https://www.npmjs.com/package/vue2-leaflet" target="_blank">vue2-leaflet <i
+						<a href="https://www.npmjs.com/package/@vue-leaflet/vue-leaflet" target="_blank">Leaflet Maps <i
 								class="fa-solid fa-link"></i></a>
 					</li>
 				</ul>
@@ -62,23 +62,20 @@
 								class="fa-solid fa-link"></i></a>
 					</li>
 					<li>
-						<a href="https://www.npmjs.com/package/vue-apexcharts" target="_blank">Vue-apexchart<i
+						<a href="https://www.npmjs.com/package/vue3-apexcharts" target="_blank">Apex-charts<i
 								class="fa-solid fa-link"></i></a>
 					</li>
 					<li>
 						<a href="https://www.npmjs.com/package/vue-google-charts" target="_blank">vue-google-charts<i
 								class="fa-solid fa-link"></i></a>
 					</li>
-					<li>
-						<a href="https://www.npmjs.com/package/vue-chartjs" target="_blank">vue-Chartjs<i
-								class="fa-solid fa-link"></i></a>
-					</li>
+					
 				</ul>
 				<h5 class="pb-1 inner-sub-title mt-6">Editors</h5>
 				<ul class="credits-list">
 
 					<li>
-						<a href="https://www.npmjs.com/package/vue2-editor" target="_blank">vue2-editor
+						<a href="https://www.npmjs.com/package/vue3-quill" target="_blank">Simple editor
 							<i class="fa-solid fa-link"></i></a>
 					</li>
 					<li>
@@ -92,41 +89,41 @@
 				<ul class="credits-list">
 
 					<li>
-						<a href="https://www.npmjs.com/package/vue-perfect-scrollbar"
-							target="_blank">vue-perfect-scrollbar <i class="fa-solid fa-link"></i></a>
+						<a href="https://www.npmjs.com/package/vue3-perfect-scrollbar"
+							target="_blank">Vue Scrollbar <i class="fa-solid fa-link"></i></a>
 					</li>
 
 					<li>
-						<a href="https://www.npmjs.com/package/vue-toasted" target="_blank">vue-toasted
+						<a href="https://www.npmjs.com/package/@meforma/vue-toaster" target="_blank">Toaster
 							<i class="fa-solid fa-link"></i></a>
 					</li>
 					<li>
-						<a href="https://www.npmjs.com/package/vue-tour" target="_blank">vue-tour <i
+						<a href="https://www.npmjs.com/package/vue3-tour" target="_blank">Tour <i
 								class="fa-solid fa-link"></i></a>
 					</li>
 
 					<li>
-						<a href="https://www.npmjs.com/package/vue-star-rating" target="_blank">vue-star-rating
+						<a href="https://www.npmjs.com/package/vue-star-rating" target="_blank">Rating
 							<i class="fa-solid fa-link"></i></a>
 					</li>
 					<li>
-						<a href="https://www.npmjs.com/package/vue-sweetalert2" target="_blank">vue-sweetalert2
+						<a href="https://www.npmjs.com/package/vue-sweetalert2" target="_blank">Sweetalert
 							<i class="fa-solid fa-link"></i></a>
 					</li>
 					<li>
-						<a href="https://www.npmjs.com/package/vue-slide-bar" target="_blank">vue-slide-bar <i
+						<a href="https://www.npmjs.com/package/vue-slider-component" target="_blank">Range-Bar <i
 								class="fa-solid fa-link"></i></a>
 					</li>
 					<li>
-						<a href="https://www.npmjs.com/package/vue-cropperjs" target="_blank">Vue-cropperJs<i
+						<a href="https://www.npmjs.com/package/vue-cropperjs" target="_blank">Image Cropper<i
 								class="fa-solid fa-link"></i></a>
 					</li>
 					<li>
-						<a href="https://www.npmjs.com/package/vue-dragula" target="_blank">vue2-dragula <i
+						<a href="https://www.npmjs.com/package/vue-draggable-next" target="_blank">Drag and Drop <i
 								class="fa-solid fa-link"></i></a>
 					</li>
 					<li>
-						<a href="https://www.npmjs.com/package/vue2-dropzone" target="_blank">vue2-dropzone <i
+						<a href="https://www.npmjs.com/package/dropzone-vue" target="_blank">Dropzone <i
 								class="fa-solid fa-link"></i></a>
 					</li>
 				</ul>
@@ -138,12 +135,9 @@
 				<h5 class="pb-1 inner-sub-title mt-0">Tables</h5>
 				<ul class="credits-list">
 
+					
 					<li>
-						<a href="https://www.npmjs.com/package/bootstrap-vue" target="_blank">Bootstrap Tables
-							<i class="fa-solid fa-link"></i></a>
-					</li>
-					<li>
-						<a href="https://www.npmjs.com/package/vuejs-smart-table" target="_blank">vuejs-smart-table <i
+						<a href="https://www.npmjs.com/package/vue3-easy-data-table" target="_blank">Data-Table <i
 								class="fa-solid fa-link"></i></a>
 					</li>
 
@@ -154,7 +148,7 @@
 				<ul class="credits-list">
 
 					<li>
-						<a href="https://www.npmjs.com/package/vuejs-datepicker" target="_blank">vuejs-datepicker <i
+						<a href="https://www.npmjs.com/package/@vuepic/vue-datepicker" target="_blank">Datepicker <i
 								class="fa-solid fa-link"></i></a>
 					</li>
 					<li>
@@ -162,121 +156,49 @@
 							<i class="fa-solid fa-link"></i></a>
 					</li>
 					<li>
-						<a href="https://www.npmjs.com/package/vue-bootstrap-typeahead"
-							target="_blank">Vue-bootstrap-typeahead <i class="fa-solid fa-link"></i></a>
+						<a href="https://www.npmjs.com/package/vue3-simple-typeahead"
+							target="_blank">Typeahead <i class="fa-solid fa-link"></i></a>
 					</li>
 				</ul>
 			</div>
 			<div class="col-xl-6 col-lg-12 col-sm-6">
 				<h5 class="pb-1 inner-sub-title mt-0">Many mores..</h5>
 				<ul class="credits-list">
-					<li>
-						<a href="https://www.npmjs.com/package/vue2-filters" target="_blank">vue2-filters <i
-								class="fa-solid fa-link"></i></a>
-					</li>
-					<li>
-						<a href="https://www.npmjs.com/package/vuedraggable" target="_blank">vuedraggable <i
-								class="fa-solid fa-link"></i></a>
-					</li>
+					
+				
 					<li>
 						<a href="https://www.npmjs.com/package/vue-i18n" target="_blank">vue-i18n<i
 								class="fa-solid fa-link"></i></a>
 					</li>
+			
 					<li>
-						<a href="https://www.npmjs.com/package/vue-kanban" target="_blank">vue-kanban<i
-								class="fa-solid fa-link"></i></a>
-					</li>
-					<li>
-						<a href="https://www.npmjs.com/package/vue-masonry" target="_blank">vue-masonry<i
-								class="fa-solid fa-link"></i></a>
-					</li>
-					<li>
-						<a href="https://www.npmjs.com/package/vue-masonry-gallery"
-							target="_blank">vue-masonry-gallery<i class="fa-solid fa-link"></i></a>
+						<a href="https://www.npmjs.com/package/vue-masonry"
+							target="_blank">vue-masonry<i class="fa-solid fa-link"></i></a>
 					</li>
 
 					<li>
-						<a href="https://www.npmjs.com/package/vue-gallery" target="_blank">Vue-gallery<i
+						<a href="https://www.npmjs.com/package/vue-easy-lightbox" target="_blank">LightBox<i
 								class="fa-solid fa-link"></i></a>
 					</li>
 
-					<li>
-						<a href="https://www.npmjs.com/package/tiptap" target="_blank">Tiptap <i
-								class="fa-solid fa-link"></i></a>
-					</li>
+				
 					<li>
 						<a href="https://www.npmjs.com/package/v-calendar" target="_blank">V-Calendar <i
 								class="fa-solid fa-link"></i></a>
 					</li>
+					
 					<li>
-						<a href="https://www.npmjs.com/package/vee-validate" target="_blank">Vee Validate<i
+						<a href="https://www.npmjs.com/package/@kyvg/vue3-notification" target="_blank">Notify<i
 								class="fa-solid fa-link"></i></a>
 					</li>
 					<li>
-						<a href="https://www.npmjs.com/package/vue-awesome-swiper" target="_blank">Vue-awesome-swiper<i
-								class="fa-solid fa-link"></i></a>
-					</li>
-					<li>
-						<a href="https://www.npmjs.com/package/vue-carousel" target="_blank">Vue-carousel
+						<a href="https://www.npmjs.com/package/swiper" target="_blank">Slider
 							<i class="fa-solid fa-link"></i></a>
 					</li>
 
 				</ul>
 			</div>
-			<div class="col-xl-6 col-lg-12 col-sm-6">
-				<h5 class="pb-1 inner-sub-title mt-0">And mores..</h5>
-				<ul class="credits-list">
-
-
-					<li>
-						<a href="https://www.npmjs.com/package/vue-simple-calendar" target="_blank">vue-simple-calendar
-							<i class="fa-solid fa-link"></i></a>
-					</li>
-					<li>
-						<a href="https://www.npmjs.com/package/vue-slider-component"
-							target="_blank">vue-slider-component <i class="fa-solid fa-link"></i></a>
-					</li>
-					<li>
-						<a href="https://www.npmjs.com/package/vue-stripe-checkout" target="_blank">vue-stripe-checkout
-							<i class="fa-solid fa-link"></i></a>
-					</li>
-					<li>
-						<a href="https://www.npmjs.com/package/vue-stripe-elements-plus"
-							target="_blank">vue-stripe-elements-plus <i class="fa-solid fa-link"></i></a>
-					</li>
-
-					<li>
-						<a href="https://www.npmjs.com/package/vue-count-to" target="_blank">Vue-count-to<i
-								class="fa-solid fa-link"></i></a>
-					</li>
-
-					<li>
-						<a href="https://www.npmjs.com/package/vue-form-wizard" target="_blank">Vue-form-wizard<i
-								class="fa-solid fa-link"></i></a>
-					</li>
-					<li>
-						<a href="https://www.npmjs.com/package/vue-functional-calendar"
-							target="_blank">Vue-functional-calendar <i class="fa-solid fa-link"></i></a>
-					</li>
-
-					<li>
-						<a href="https://www.npmjs.com/package/vue-moment" target="_blank">Vue-moment
-							<i class="fa-solid fa-link"></i></a>
-					</li>
-					<li>
-						<a href="https://www.npmjs.com/package/vue-notification" target="_blank">vue-notification <i
-								class="fa-solid fa-link"></i></a>
-					</li>
-					<li>
-						<a href="https://www.npmjs.com/package/vue-paypal-checkout" target="_blank">vue-paypal-checkout
-							<i class="fa-solid fa-link"></i></a>
-					</li>
-					<li>
-						<a href="https://www.npmjs.com/package/vue-select" target="_blank">vue-select
-							<i class="fa-solid fa-link"></i></a>
-					</li>
-				</ul>
-			</div>
+			
 		</div>
 	</div>
 </template>

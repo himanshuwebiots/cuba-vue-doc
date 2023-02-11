@@ -34,11 +34,15 @@
           />
         </VuePerfectScrollbar>
         <h5 class="inner-sub-title">Installing and usage</h5>
+     
         <div class="mb-4">
           <div class="code-box-copy mt-4">
             <codeBox :code="prismCodes.installVuePerfectScrollbar" />
           </div>
-
+          <h5 class="inner-sub-title">Add this in main.js</h5>
+          <div class="code-box-copy mt-4">
+            <codeBox :code="prismCodes.mainScriptScrollBar" />
+          </div>
           <h5 class="inner-sub-title">Inside Your template tags add</h5>
           <div class="code-box-copy mt-4">
             <codeBox :code="prismCodes.insideTemplateScrollBar" />
@@ -84,6 +88,11 @@
             <codeBox :code="prismCodes.installtoaster" />
           </div>
 
+          <h5 class="inner-sub-title">Add this in main.js</h5>
+          <div class="code-box-copy mt-4">
+            <codeBox :code="prismCodes.mainScriptToaster" />
+          </div>
+
           <h5 class="inner-sub-title">Inside Your template tags add</h5>
           <div class="code-box-copy mt-4">
             <codeBox :code="prismCodes.insideTemplateToaster" />
@@ -121,6 +130,11 @@
             <codeBox :code="prismCodes.installTour" />
           </div>
 
+          <h5 class="inner-sub-title">Add this in main.js</h5>
+          <div class="code-box-copy mt-4">
+            <codeBox :code="prismCodes.mainScriptTour" />
+          </div>
+
           <h5 class="inner-sub-title">Inside Your template tags add</h5>
           <div class="code-box-copy mt-4">
             <codeBox :code="prismCodes.insideTemplateTour" />
@@ -145,30 +159,16 @@
             supplementPath="https://www.npmjs.com/package/vue-rate-it"
           />
         </h4>
-        <h5 class="inner-sub-title">Examples Of Rating:</h5>
-        <div class="row">
-          <div class="col-sm">
-            <h5 class="inner-sub-title">Image Rating</h5>
-            <image-rating
-              :src="vuelogo()"
-              :item-size="15"
-              :max-rating="10"
-            ></image-rating>
-          </div>
-          <div class="col-sm">
-            <h5 class="inner-sub-title">Heart Rating</h5>
-            <heart-rating
-              v-model="heartrating.rating1"
-              :item-size="15"
-              :spacing="3"
-              :max-rating="10"
-            ></heart-rating>
-          </div>
-        </div>
+       
         <p class="pt-4"><b>Installing and usage</b></p>
         <div class="mb-4">
           <div class="code-box-copy mt-4">
             <codeBox :code="prismCodes.installRating" />
+          </div>
+
+          <h5 class="inner-sub-title">Add this in main.js</h5>
+          <div class="code-box-copy mt-4">
+            <codeBox :code="prismCodes.mainScriptRating" />
           </div>
 
           <h5 class="inner-sub-title">Inside Your template tags add</h5>
@@ -180,7 +180,7 @@
           </div>
           <h5 class="inner-sub-title">Uninstalling Package</h5>
           <div class="code-box-copy mt-4">
-            <codeBox :code="prismCodes.unInstallTour" />
+            <codeBox :code="prismCodes.unInstallRating" />
           </div>
         </div>
       </div>
@@ -340,11 +340,7 @@
             supplementPath="https://www.npmjs.com/package/vue2-dragula"
           />
         </h4>
-        <img
-          class="img-fluid mb-3 img-80"
-          src="../assets/images/document/vue/gifs/dragNDrop.gif"
-          alt=""
-        />
+       
         <p class="pt-4"><b>Installing and usage</b></p>
         <div class="mb-4">
           <div class="code-box-copy mt-4">

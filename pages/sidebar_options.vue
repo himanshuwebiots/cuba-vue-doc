@@ -1,27 +1,32 @@
 <template>
 	<div>
 		<div class="card-header">
-			<h4 class="main-title">Sidebar Options</h4>
+			<h4 class="main-title">Sidebar Type</h4>
 		</div>
 		<div class="card-body p-t-0">
-			There are 3 Sidebar Settings in our theme:
+			There are 2 Sidebar Type in our theme:
 			<ol>
-				<li>Default</li>
-				<li>Bordered</li>
-				<li>Icon Color</li>
+				<li>Vertical</li>
+				<li>Horizontal</li>
+				<!-- <li>Icon Color</li> -->
 			</ol>
 			<p>Lets look at them one by one.</p>
-			<h4 class="sub-title" id="defaultSidebar">Default Sidebar:</h4>
-			<p>Shows the sidebar with default style.</p>
+			<h4 class="sub-title" id="defaultSidebar">Vertical Sidebar:</h4>
+			<p>Shows the vertical sidebar </p>
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
 					src="~assets/images/document/vue/codeSnaps/layout_dubai.png"
 					alt=""
 				/>
+
 			</div>
-			<h4 class="sub-title" id="borderedSidebar">Bordered Sidebar:</h4>
-			<p>Shows the sidebar with a border below every link..</p>
+			<p>
+				The Classes that needs to be added to below mentioned div are
+				<strong> 'compact-wrapper'.</strong>
+			</p>
+			<h4 class="sub-title" id="borderedSidebar">Horizontal Sidebar:</h4>
+			<p>Shows the Horizontal sidebar</p>
 			<div class="d-flex justify-content-center align-items-center">
 				<img
 					class="img-fluid mb-3 img-border img-80"
@@ -29,7 +34,11 @@
 					alt=""
 				/>
 			</div>
-			<h4 class="sub-title" id="iconColorSidebar">Icon Color Sidebar:</h4>
+			<p>
+				The Classes that needs to be added to below mentioned div are
+				<strong> 'horizonatl-wrapper'.</strong>
+			</p>
+			<!-- <h4 class="sub-title" id="iconColorSidebar">Icon Color Sidebar:</h4>
 			<p>Shows the sidebar with beautiful colored icons .</p>
 			<div class="d-flex justify-content-center align-items-center">
 				<img
@@ -37,25 +46,15 @@
 					src="~assets/images/document/vue/codeSnaps/layout_dubai_color_icons.png"
 					alt=""
 				/>
-			</div>
+			</div> -->
 			<p>
-				These changes are applied by changing the value of sidebar-layout
-				property in the sidebar component.
+				These changes are applied by changing the classes in the below given div tag changes.
 			</p>
-			<p>
-				If you like a particular type of sidebar and want to use that one in you
-				website, then just copy the sidebar.scss file and add the necessary
-				class to the sidebar-layout property in
-				<strong> theme>src>components>body.vue</strong> file.
-			</p>
+			<code>
 
-			<ul>
-				<li>sidebar-layout = 'default-sidebar' for the default sidebar.</li>
-				<li>sidebar-layout = 'border-sidebar' for the bordered sidebar.</li>
-				<li>
-					sidebar-layout = 'iconcolor-sidebar' for the colored icons in sidebar.
-				</li>
-			</ul>
+				&lt;div class="page-wrapper LAYOUT_CLASSES_HERE"&gt;...&lt;/div&gt;
+			</code>
+
 		</div>
 	</div>
 </template>

@@ -22,8 +22,8 @@
         </p>
         <h4 class="ul-title">Dependancies in our theme</h4>
         <ul class="mb-0">
-          <li>Vue Cli 3</li>
-          <li>Bootstrap-4</li>
+          <li>Vue Cli 5</li>
+          <li>Bootstrap-5</li>
           <li>SASS</li>
         </ul>
       </div>
